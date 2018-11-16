@@ -133,3 +133,25 @@ G:\TT Nhóm\Quan-Ly-kho-master\InventoryManangement\InventoryManage\InventoryMan
 G:\TT Nhóm\Quan-Ly-kho-master\InventoryManangement\InventoryManage\InventoryManage\obj\Debug\InventoryManage.csproj.CopyComplete
 G:\TT Nhóm\Quan-Ly-kho-master\InventoryManangement\InventoryManage\InventoryManage\obj\Debug\InventoryManage.exe
 G:\TT Nhóm\Quan-Ly-kho-master\InventoryManangement\InventoryManage\InventoryManage\obj\Debug\InventoryManage.pdb
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.exe
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.pdb
+G:\GitHub\QlyKho\QlyKho\InventoryManage\bin\Debug\InventoryManage.exe.config
+G:\GitHub\QlyKho\QlyKho\InventoryManage\bin\Debug\InventoryManage.exe
+G:\GitHub\QlyKho\QlyKho\InventoryManage\bin\Debug\InventoryManage.pdb
+G:\GitHub\QlyKho\QlyKho\InventoryManage\bin\Debug\EntityFramework.dll
+G:\GitHub\QlyKho\QlyKho\InventoryManage\bin\Debug\EntityFramework.SqlServer.dll
+G:\GitHub\QlyKho\QlyKho\InventoryManage\bin\Debug\EntityFramework.xml
+G:\GitHub\QlyKho\QlyKho\InventoryManage\bin\Debug\EntityFramework.SqlServer.xml
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.FormSuppliers.resources
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.FormExportation.resources
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.FormHome.resources
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.FormImportations.resources
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.FormLogIn.resources
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.FormProducts.resources
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.FormRegistration.resources
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.FormStorekeepers.resources
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.FormSupplier.resources
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.Properties.Resources.resources
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.csproj.GenerateResource.cache
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.csproj.CoreCompileInputs.cache
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.csproj.CopyComplete
