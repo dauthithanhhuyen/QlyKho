@@ -155,3 +155,4 @@ G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.Properties.Res
 G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.csproj.GenerateResource.cache
 G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.csproj.CoreCompileInputs.cache
 G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.csproj.CopyComplete
+G:\GitHub\QlyKho\QlyKho\InventoryManage\obj\Debug\InventoryManage.csprojAssemblyReference.cache
