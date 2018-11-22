@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSuppliers));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.TxtCusSearch = new System.Windows.Forms.ToolStripTextBox();
             this.BtCusSearch = new System.Windows.Forms.ToolStripButton();
@@ -77,7 +78,7 @@
             this.TxtCusSearch.Margin = new System.Windows.Forms.Padding(380, 0, 1, 0);
             this.TxtCusSearch.Name = "TxtCusSearch";
             this.TxtCusSearch.Size = new System.Drawing.Size(100, 25);
-            this.TxtCusSearch.Text = "Fill information";
+            this.TxtCusSearch.Text = "Điền thông tin";
             this.TxtCusSearch.Click += new System.EventHandler(this.TxtCusSearch_Click);
             // 
             // BtCusSearch
@@ -86,12 +87,13 @@
             this.BtCusSearch.Image = global::InventoryManage.Properties.Resources.search;
             this.BtCusSearch.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.BtCusSearch.Name = "BtCusSearch";
-            this.BtCusSearch.Size = new System.Drawing.Size(62, 22);
-            this.BtCusSearch.Text = "Search";
+            this.BtCusSearch.Size = new System.Drawing.Size(77, 22);
+            this.BtCusSearch.Text = "Tìm kiếm";
             this.BtCusSearch.Click += new System.EventHandler(this.BtCusSearch_Click);
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Teal;
             this.groupBox1.Controls.Add(this.TxtCusEmail);
             this.groupBox1.Controls.Add(this.TxtCusPhone);
             this.groupBox1.Controls.Add(this.TxtCusAddress);
@@ -101,12 +103,13 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.groupBox1.ForeColor = System.Drawing.Color.Black;
             this.groupBox1.Location = new System.Drawing.Point(0, 28);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(560, 93);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Detail of Customer";
+            this.groupBox1.Text = "Chi tiết khách hàng";
             // 
             // TxtCusEmail
             // 
@@ -127,7 +130,7 @@
             // TxtCusAddress
             // 
             this.TxtCusAddress.Enabled = false;
-            this.TxtCusAddress.Location = new System.Drawing.Point(83, 61);
+            this.TxtCusAddress.Location = new System.Drawing.Point(93, 61);
             this.TxtCusAddress.Name = "TxtCusAddress";
             this.TxtCusAddress.Size = new System.Drawing.Size(123, 22);
             this.TxtCusAddress.TabIndex = 7;
@@ -135,7 +138,7 @@
             // TxtCusName
             // 
             this.TxtCusName.Enabled = false;
-            this.TxtCusName.Location = new System.Drawing.Point(83, 27);
+            this.TxtCusName.Location = new System.Drawing.Point(93, 27);
             this.TxtCusName.Name = "TxtCusName";
             this.TxtCusName.Size = new System.Drawing.Size(123, 22);
             this.TxtCusName.TabIndex = 6;
@@ -143,24 +146,30 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Teal;
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label5.Location = new System.Drawing.Point(22, 27);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 16);
+            this.label5.Size = new System.Drawing.Size(65, 16);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Name";
+            this.label5.Text = "Họ và tên";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Teal;
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(280, 27);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 16);
+            this.label3.Size = new System.Drawing.Size(35, 16);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Phone Number";
+            this.label3.Text = "SĐT";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Teal;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(280, 61);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 16);
@@ -170,27 +179,33 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Teal;
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(22, 61);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 16);
+            this.label1.Size = new System.Drawing.Size(48, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Address";
+            this.label1.Text = "Địa chỉ";
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.SystemColors.Info;
+            this.groupBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox2.BackgroundImage")));
             this.groupBox2.Controls.Add(this.DgvCus);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.groupBox2.Location = new System.Drawing.Point(0, 127);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(560, 251);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "List of Customers";
+            this.groupBox2.Text = "Danh sách khách hàng";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // DgvCus
             // 
             this.DgvCus.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvCus.Location = new System.Drawing.Point(25, 35);
+            this.DgvCus.Location = new System.Drawing.Point(25, 32);
             this.DgvCus.Name = "DgvCus";
             this.DgvCus.Size = new System.Drawing.Size(528, 199);
             this.DgvCus.TabIndex = 0;
@@ -293,7 +308,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(577, 452);
             this.Controls.Add(this.CmbCus);
             this.Controls.Add(this.groupBox3);

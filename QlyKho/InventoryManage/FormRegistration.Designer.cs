@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegistration));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.TxtResPass2 = new System.Windows.Forms.TextBox();
             this.TxtResPass1 = new System.Windows.Forms.TextBox();
@@ -47,6 +48,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.groupBox1.Controls.Add(this.TxtResPass2);
             this.groupBox1.Controls.Add(this.TxtResPass1);
             this.groupBox1.Controls.Add(this.TxtResUser);
@@ -182,6 +184,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(382, 303);
             this.Controls.Add(this.BtnRes);
             this.Controls.Add(this.groupBox1);

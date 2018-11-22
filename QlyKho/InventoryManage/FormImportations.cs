@@ -359,11 +359,16 @@ namespace InventoryManage
 
         private void BtImpCreateSup_Click(object sender, EventArgs e)
         {
-            FormSuppliers f = new FormSuppliers();
-            this.Hide();
+            //FormSuppliers f = new FormSuppliers();
+            //  this.Hide();
+            //  Medium.FormSup = true;
+            //  f.Show();
             Medium.FormSup = true;
+            FormSuppliers f = new FormSuppliers();
             f.Show();
+            this.Hide();
         }
+    
 
         private void BtImpProCreate_Click(object sender, EventArgs e)
         {
@@ -643,6 +648,11 @@ namespace InventoryManage
                 TxtImpProName.Clear();
                 TxtImpProUnit.Clear();
             }
+        }
+
+        private void groupBox5_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

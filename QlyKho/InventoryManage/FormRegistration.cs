@@ -28,7 +28,7 @@ namespace InventoryManage
         {
             if(TxtResName.Text == null || TxtResUser.Text == null || TxtResPass1.Text == null || TxtResPass2.Text == null)
             {
-                MessageBox.Show("Fill in information");
+                MessageBox.Show("Vui lòng điền vào thông tin");
             }
             else
             {
@@ -36,7 +36,7 @@ namespace InventoryManage
                 var result = db.Storekeepers.Where(p => p.ID == ID).SingleOrDefault();
                 if (result == null)
                 {
-                    MessageBox.Show("Yours Id doesn't exist");
+                    MessageBox.Show("ID của bạn chưa tồn tại");
                     TxtResName.Clear();
                 }
                 else
@@ -44,7 +44,7 @@ namespace InventoryManage
                     var result1 = db.Users.Where(p => p.UserName == TxtResUser.Text).SingleOrDefault();
                     if ( result1 != null )
                     {
-                        MessageBox.Show("UserName existed, Enter difference Username");
+                        MessageBox.Show("UserName đã tồn tại,Nhập lại Username khác !");
                         TxtResUser.Clear();
                         
                     }
@@ -52,7 +52,7 @@ namespace InventoryManage
                     {
                         if(TxtResPass1.Text != TxtResPass2.Text)
                         {
-                            MessageBox.Show("Password isn't correct");
+                            MessageBox.Show("Password nhập lại không chính xác");
                             TxtResPass2.Clear();
                             
                         }
@@ -65,7 +65,7 @@ namespace InventoryManage
                             db.Users.Add(user);
                             db.SaveChanges();
                             this.Hide();
-                            MessageBox.Show("Registration successfully");
+                            MessageBox.Show("Đăng ký thành công");
                             FormHome f = new FormHome();
                             f.Show();
                         }

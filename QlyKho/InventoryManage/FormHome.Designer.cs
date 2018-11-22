@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHome));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.Home = new System.Windows.Forms.ToolStripMenuItem();
             this.SignIn = new System.Windows.Forms.ToolStripMenuItem();
@@ -58,7 +59,7 @@
             this.Manage});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(483, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(499, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -157,55 +158,55 @@
             // productsToolStripMenuItem1
             // 
             this.productsToolStripMenuItem1.Name = "productsToolStripMenuItem1";
-            this.productsToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.productsToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.productsToolStripMenuItem1.Text = "Products";
             this.productsToolStripMenuItem1.Click += new System.EventHandler(this.productsToolStripMenuItem1_Click);
             // 
             // importationsToolStripMenuItem1
             // 
             this.importationsToolStripMenuItem1.Name = "importationsToolStripMenuItem1";
-            this.importationsToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.importationsToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.importationsToolStripMenuItem1.Text = "Importations";
             this.importationsToolStripMenuItem1.Click += new System.EventHandler(this.importationsToolStripMenuItem1_Click);
             // 
             // exportationsToolStripMenuItem1
             // 
             this.exportationsToolStripMenuItem1.Name = "exportationsToolStripMenuItem1";
-            this.exportationsToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.exportationsToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.exportationsToolStripMenuItem1.Text = "Exportations";
             this.exportationsToolStripMenuItem1.Click += new System.EventHandler(this.exportationsToolStripMenuItem1_Click);
             // 
             // suppliersToolStripMenuItem1
             // 
             this.suppliersToolStripMenuItem1.Name = "suppliersToolStripMenuItem1";
-            this.suppliersToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.suppliersToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.suppliersToolStripMenuItem1.Text = "Suppliers";
             this.suppliersToolStripMenuItem1.Click += new System.EventHandler(this.suppliersToolStripMenuItem1_Click);
             // 
             // customersToolStripMenuItem1
             // 
             this.customersToolStripMenuItem1.Name = "customersToolStripMenuItem1";
-            this.customersToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.customersToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.customersToolStripMenuItem1.Text = "Customers";
             this.customersToolStripMenuItem1.Click += new System.EventHandler(this.customersToolStripMenuItem1_Click);
             // 
             // storekeepersToolStripMenuItem1
             // 
             this.storekeepersToolStripMenuItem1.Name = "storekeepersToolStripMenuItem1";
-            this.storekeepersToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.storekeepersToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.storekeepersToolStripMenuItem1.Text = "Storekeepers";
             this.storekeepersToolStripMenuItem1.Click += new System.EventHandler(this.storekeepersToolStripMenuItem1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Aqua;
+            this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(44, 156);
+            this.label1.Location = new System.Drawing.Point(112, 75);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(403, 18);
+            this.label1.Size = new System.Drawing.Size(120, 18);
             this.label1.TabIndex = 1;
-            this.label1.Text = "WELLCOME TO INVENTORY MANAGE SOFTWARE";
+            this.label1.Text = "QUẢN LÝ KHO";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FormHome
@@ -213,12 +214,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.BackgroundImage = global::InventoryManage.Properties.Resources.sai_lam_khi_quan_ly_kho_hang1_1024x674;
-            this.ClientSize = new System.Drawing.Size(483, 305);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(499, 305);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormHome";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

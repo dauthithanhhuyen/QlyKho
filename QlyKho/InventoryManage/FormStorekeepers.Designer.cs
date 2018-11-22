@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormStorekeepers));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.TxtStoSearch = new System.Windows.Forms.ToolStripTextBox();
             this.BtStoSearch = new System.Windows.Forms.ToolStripButton();
@@ -80,7 +81,7 @@
             this.TxtStoSearch.Margin = new System.Windows.Forms.Padding(380, 0, 1, 0);
             this.TxtStoSearch.Name = "TxtStoSearch";
             this.TxtStoSearch.Size = new System.Drawing.Size(100, 25);
-            this.TxtStoSearch.Text = "Fill information";
+            this.TxtStoSearch.Text = "Điền thông tin ";
             this.TxtStoSearch.Click += new System.EventHandler(this.TxtStoSearch_Click);
             // 
             // BtStoSearch
@@ -95,6 +96,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Teal;
             this.groupBox1.Controls.Add(this.BirthDay);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.TxtStoEmail);
@@ -111,7 +113,7 @@
             this.groupBox1.Size = new System.Drawing.Size(560, 129);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Detail of Storekeeper";
+            this.groupBox1.Text = "Thông tin chủ kho";
             // 
             // BirthDay
             // 
@@ -128,9 +130,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(280, 94);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 16);
+            this.label4.Size = new System.Drawing.Size(68, 16);
             this.label4.TabIndex = 13;
-            this.label4.Text = "Birthday";
+            this.label4.Text = "Ngày sinh";
             // 
             // TxtStoEmail
             // 
@@ -169,18 +171,18 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(18, 42);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 16);
+            this.label5.Size = new System.Drawing.Size(32, 16);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Name";
+            this.label5.Text = "Tên";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(280, 27);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 16);
+            this.label3.Size = new System.Drawing.Size(35, 16);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Phone Number";
+            this.label3.Text = "SĐT";
             // 
             // label2
             // 
@@ -196,20 +198,22 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(18, 94);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 16);
+            this.label1.Size = new System.Drawing.Size(48, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Address";
+            this.label1.Text = "Địa chỉ";
             // 
             // groupBox2
             // 
+            this.groupBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox2.BackgroundImage")));
             this.groupBox2.Controls.Add(this.DgvSto);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.groupBox2.Location = new System.Drawing.Point(0, 172);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(560, 251);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "List of Storekeepers";
+            this.groupBox2.Text = "Danh sách chủ kho";
             // 
             // DgvSto
             // 
@@ -316,7 +320,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(577, 485);
             this.Controls.Add(this.CmbSto);
             this.Controls.Add(this.groupBox3);

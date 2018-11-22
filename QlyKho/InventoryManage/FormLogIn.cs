@@ -24,7 +24,7 @@ namespace InventoryManage
         {
             if(TxtLogName.Text == "" || TxtLogPass.Text == "")
             {
-                MessageBox.Show("Enter UserName and Password");
+                MessageBox.Show("Nhập vào UserName và PassWord");
                 return;
             }
             else
@@ -32,14 +32,14 @@ namespace InventoryManage
                 var result = db.Users.Where(p => p.UserName == TxtLogName.Text && p.Pass == TxtLogPass.Text).SingleOrDefault();
                 if(result == null)
                 {
-                    MessageBox.Show("Your Account doesn't exist");
+                    MessageBox.Show("Tài khoản bạn nhập vào không đúng");
                     TxtLogName.Clear();
                     TxtLogPass.Clear();
                 }
                 else
                 {
                     this.Hide();
-                    MessageBox.Show("Log in successfully");
+                    MessageBox.Show("Đăng nhập thành công");
                     Medium.IdSto = result.ID;
                     Medium.Active = true;
                     FormHome f = new FormHome();

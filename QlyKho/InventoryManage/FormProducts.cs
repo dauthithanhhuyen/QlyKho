@@ -297,5 +297,15 @@ namespace InventoryManage
             f.Show();
             this.Hide();
         }
+
+        private void toolStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormImportations));
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.BtImpCreate = new System.Windows.Forms.ToolStripButton();
             this.BtImpEdit = new System.Windows.Forms.ToolStripButton();
@@ -168,7 +169,7 @@
             // 
             this.CbImpSupplier.Enabled = false;
             this.CbImpSupplier.FormattingEnabled = true;
-            this.CbImpSupplier.Location = new System.Drawing.Point(70, 24);
+            this.CbImpSupplier.Location = new System.Drawing.Point(103, 24);
             this.CbImpSupplier.Name = "CbImpSupplier";
             this.CbImpSupplier.Size = new System.Drawing.Size(105, 24);
             this.CbImpSupplier.TabIndex = 10;
@@ -176,7 +177,7 @@
             // TxtImpDeliver
             // 
             this.TxtImpDeliver.Enabled = false;
-            this.TxtImpDeliver.Location = new System.Drawing.Point(70, 65);
+            this.TxtImpDeliver.Location = new System.Drawing.Point(112, 65);
             this.TxtImpDeliver.Name = "TxtImpDeliver";
             this.TxtImpDeliver.Size = new System.Drawing.Size(138, 22);
             this.TxtImpDeliver.TabIndex = 7;
@@ -184,7 +185,7 @@
             // TxtImpStorekeeper
             // 
             this.TxtImpStorekeeper.Enabled = false;
-            this.TxtImpStorekeeper.Location = new System.Drawing.Point(320, 65);
+            this.TxtImpStorekeeper.Location = new System.Drawing.Point(318, 65);
             this.TxtImpStorekeeper.Name = "TxtImpStorekeeper";
             this.TxtImpStorekeeper.Size = new System.Drawing.Size(104, 22);
             this.TxtImpStorekeeper.TabIndex = 6;
@@ -200,44 +201,50 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox2.BackgroundImage")));
             this.groupBox2.Controls.Add(this.DgvImp);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.groupBox2.Location = new System.Drawing.Point(12, 129);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(509, 295);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "List of Receipts";
+            this.groupBox2.Text = "Danh sách hóa đơn";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Teal;
             this.label5.Location = new System.Drawing.Point(6, 27);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 16);
+            this.label5.Size = new System.Drawing.Size(95, 16);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Supplier";
+            this.label5.Text = "Nhà phân phối";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(231, 27);
+            this.label3.BackColor = System.Drawing.Color.Teal;
+            this.label3.Location = new System.Drawing.Point(256, 30);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 16);
+            this.label3.Size = new System.Drawing.Size(77, 16);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Date Of Importing";
+            this.label3.Text = "Ngày nhập ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(231, 68);
+            this.label2.BackColor = System.Drawing.Color.Teal;
+            this.label2.Location = new System.Drawing.Point(256, 68);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 16);
+            this.label2.Size = new System.Drawing.Size(56, 16);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Storekeeper";
+            this.label2.Text = "Chủ kho";
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Teal;
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.TxtImpStoID);
             this.groupBox1.Controls.Add(this.BtImpCreateSup);
@@ -255,11 +262,12 @@
             this.groupBox1.Size = new System.Drawing.Size(509, 93);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Detail of Importing Receipt";
+            this.groupBox1.Text = "Chi tiết hóa đơn nhập kho";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Teal;
             this.label10.Location = new System.Drawing.Point(430, 68);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(21, 16);
@@ -279,7 +287,7 @@
             // 
             this.BtImpCreateSup.Enabled = false;
             this.BtImpCreateSup.Image = global::InventoryManage.Properties.Resources.them;
-            this.BtImpCreateSup.Location = new System.Drawing.Point(181, 23);
+            this.BtImpCreateSup.Location = new System.Drawing.Point(214, 21);
             this.BtImpCreateSup.Name = "BtImpCreateSup";
             this.BtImpCreateSup.Size = new System.Drawing.Size(27, 24);
             this.BtImpCreateSup.TabIndex = 12;
@@ -299,11 +307,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Teal;
             this.label1.Location = new System.Drawing.Point(6, 68);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 16);
+            this.label1.Size = new System.Drawing.Size(107, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Deliver";
+            this.label1.Text = "Người giao hàng";
             // 
             // TxtImpSearch
             // 
@@ -312,7 +321,7 @@
             this.TxtImpSearch.Margin = new System.Windows.Forms.Padding(300, 0, 1, 0);
             this.TxtImpSearch.Name = "TxtImpSearch";
             this.TxtImpSearch.Size = new System.Drawing.Size(100, 25);
-            this.TxtImpSearch.Text = "Fill information";
+            this.TxtImpSearch.Text = "Điền thông tin";
             this.TxtImpSearch.Click += new System.EventHandler(this.TxtImpSearch_Click);
             // 
             // toolStrip1
@@ -339,7 +348,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.panel1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.groupBox5);
             this.panel1.Controls.Add(this.groupBox4);
@@ -350,22 +359,26 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox5.BackgroundImage")));
             this.groupBox5.Controls.Add(this.BtImpDeletePro);
             this.groupBox5.Controls.Add(this.BtImpEditPro);
             this.groupBox5.Controls.Add(this.BtImpAddPro);
             this.groupBox5.Controls.Add(this.DgvImpPro);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.groupBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.groupBox5.Location = new System.Drawing.Point(12, 122);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(386, 251);
             this.groupBox5.TabIndex = 1;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "List of Products";
+            this.groupBox5.Text = "Danh sách sản phẩm";
+            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
             // 
             // BtImpDeletePro
             // 
             this.BtImpDeletePro.BackColor = System.Drawing.Color.MediumAquamarine;
             this.BtImpDeletePro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.BtImpDeletePro.ForeColor = System.Drawing.Color.Black;
             this.BtImpDeletePro.Location = new System.Drawing.Point(277, 208);
             this.BtImpDeletePro.Name = "BtImpDeletePro";
             this.BtImpDeletePro.Size = new System.Drawing.Size(99, 27);
@@ -379,6 +392,7 @@
             // 
             this.BtImpEditPro.BackColor = System.Drawing.Color.MediumAquamarine;
             this.BtImpEditPro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.BtImpEditPro.ForeColor = System.Drawing.Color.Black;
             this.BtImpEditPro.Location = new System.Drawing.Point(147, 208);
             this.BtImpEditPro.Name = "BtImpEditPro";
             this.BtImpEditPro.Size = new System.Drawing.Size(96, 27);
@@ -392,6 +406,7 @@
             // 
             this.BtImpAddPro.BackColor = System.Drawing.Color.MediumAquamarine;
             this.BtImpAddPro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.BtImpAddPro.ForeColor = System.Drawing.Color.Black;
             this.BtImpAddPro.Location = new System.Drawing.Point(22, 208);
             this.BtImpAddPro.Name = "BtImpAddPro";
             this.BtImpAddPro.Size = new System.Drawing.Size(90, 27);
@@ -412,6 +427,7 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.BackColor = System.Drawing.Color.Teal;
             this.groupBox4.Controls.Add(this.BtImpProCreate);
             this.groupBox4.Controls.Add(this.TxtImpProUnit);
             this.groupBox4.Controls.Add(this.CbImpProSup);
@@ -429,7 +445,7 @@
             this.groupBox4.Size = new System.Drawing.Size(386, 100);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Detail of Product";
+            this.groupBox4.Text = "Chi tiết sản phẩm theo đơn";
             // 
             // BtImpProCreate
             // 
@@ -462,7 +478,7 @@
             // TxtImpProQuan
             // 
             this.TxtImpProQuan.Enabled = false;
-            this.TxtImpProQuan.Location = new System.Drawing.Point(249, 27);
+            this.TxtImpProQuan.Location = new System.Drawing.Point(240, 24);
             this.TxtImpProQuan.Name = "TxtImpProQuan";
             this.TxtImpProQuan.Size = new System.Drawing.Size(42, 22);
             this.TxtImpProQuan.TabIndex = 16;
@@ -470,29 +486,32 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(297, 29);
+            this.label7.BackColor = System.Drawing.Color.Teal;
+            this.label7.Location = new System.Drawing.Point(288, 27);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(31, 16);
+            this.label7.Size = new System.Drawing.Size(45, 16);
             this.label7.TabIndex = 15;
-            this.label7.Text = "Unit";
+            this.label7.Text = "Đơn vị";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(187, 30);
+            this.label8.BackColor = System.Drawing.Color.Teal;
+            this.label8.Location = new System.Drawing.Point(173, 30);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 16);
+            this.label8.Size = new System.Drawing.Size(61, 16);
             this.label8.TabIndex = 14;
-            this.label8.Text = "Quantity";
+            this.label8.Text = "Số lượng";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(187, 61);
+            this.label9.BackColor = System.Drawing.Color.Teal;
+            this.label9.Location = new System.Drawing.Point(148, 66);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 16);
+            this.label9.Size = new System.Drawing.Size(95, 16);
             this.label9.TabIndex = 13;
-            this.label9.Text = "Supplier";
+            this.label9.Text = "Nhà phân phối";
             // 
             // TxtImpProName
             // 
@@ -514,6 +533,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Teal;
             this.label4.Location = new System.Drawing.Point(6, 30);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 16);
@@ -523,11 +543,12 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Teal;
             this.label6.Location = new System.Drawing.Point(6, 61);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 16);
+            this.label6.Size = new System.Drawing.Size(32, 16);
             this.label6.TabIndex = 8;
-            this.label6.Text = "Name";
+            this.label6.Text = "Tên";
             // 
             // CmbImp
             // 
@@ -537,7 +558,6 @@
             "Name of Storekeeper",
             "Name of Supplier",
             "Date of Importing",
-            "Month of Importing",
             "Year of Importing"});
             this.CmbImp.Location = new System.Drawing.Point(177, 0);
             this.CmbImp.Name = "CmbImp";
@@ -548,7 +568,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(944, 512);
             this.Controls.Add(this.CmbImp);
             this.Controls.Add(this.panel1);
